@@ -32,6 +32,26 @@ stop-opacity="0"/>
 
 </radialGradient>
 
+  <radialGradient
+id="moonHalo">
+
+<stop
+offset="0%"
+stop-color="#FFF9C4"
+stop-opacity=".22"/>
+
+<stop
+offset="55%"
+stop-color="#FFD54F"
+stop-opacity=".08"/>
+
+<stop
+offset="100%"
+stop-color="#FFD54F"
+stop-opacity="0"/>
+
+</radialGradient>
+  
 <filter id="softGlow"
 x="-60%"
 y="-60%"
@@ -51,6 +71,30 @@ stdDeviation="18"/>
 
 <g id="moonLayer">
   <!-- Moon Glow -->
+  <ellipse
+
+cx="1498"
+
+cy="138"
+
+rx="5"
+
+ry="12"
+
+fill="#FFFFFF"
+
+opacity=".45"/>
+  <circle
+
+cx="1510"
+
+cy="170"
+
+r="170"
+
+fill="url(#moonHalo)"
+
+opacity=".85"/>
 
 <circle
 

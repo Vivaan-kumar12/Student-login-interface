@@ -5,33 +5,31 @@ preserveAspectRatio="xMidYMid slice"
 id="scene">
 
 <defs>
-  <radialGradient id="moonGlow"
-cx="50%"
-cy="50%"
-r="50%">
+<symbol id="starShape" viewBox="0 0 100 100">
 
-<stop
-offset="0%"
-stop-color="#FFF9C4"
-stop-opacity="1"/>
+<path
+d="M50 6
+L61 36
+L94 36
+L67 55
+L77 88
+L50 68
+L23 88
+L33 55
+L6 36
+L39 36
+Z"
 
-<stop
-offset="35%"
-stop-color="#FFE082"
-stop-opacity=".75"/>
+fill="#FFD84D"
 
-<stop
-offset="70%"
-stop-color="#FFD54F"
-stop-opacity=".30"/>
+stroke="#FFF8C4"
 
-<stop
-offset="100%"
-stop-color="#FFD54F"
-stop-opacity="0"/>
+stroke-width="2"
 
-</radialGradient>
+stroke-linejoin="round"/>
 
+</symbol>
+  
   <radialGradient
 id="moonHalo">
 
@@ -52,20 +50,85 @@ stop-opacity="0"/>
 
 </radialGradient>
   
-<filter id="softGlow"
-x="-60%"
-y="-60%"
-width="220%"
-height="220%">
+<filter id="starGlow"
+x="-100%"
+y="-100%"
+width="300%"
+height="300%">
 
 <feGaussianBlur
-stdDeviation="18"/>
+stdDeviation="2.5"
+result="blur"/>
+
+<feMerge>
+
+<feMergeNode in="blur"/>
+
+<feMergeNode in="SourceGraphic"/>
+
+</feMerge>
 
 </filter>
-
+  
 </defs>
 
-<g id="skyLayer">
+<g id="stars">
+
+<use href="#starShape"
+x="220"
+y="80"
+width="16"
+height="16"
+class="star1"/>
+
+<use href="#starShape"
+x="410"
+y="120"
+width="12"
+height="12"
+class="star2"/>
+
+<use href="#starShape"
+x="640"
+y="70"
+width="18"
+height="18"
+class="star3"/>
+
+<use href="#starShape"
+x="910"
+y="140"
+width="14"
+height="14"
+class="star4"/>
+
+<use href="#starShape"
+x="1180"
+y="90"
+width="16"
+height="16"
+class="star5"/>
+
+<use href="#starShape"
+x="1640"
+y="60"
+width="18"
+height="18"
+class="star6"/>
+
+<use href="#starShape"
+x="1760"
+y="180"
+width="14"
+height="14"
+class="star7"/>
+
+<use href="#starShape"
+x="1440"
+y="260"
+width="12"
+height="12"
+class="star8"/>
 
 </g>
 

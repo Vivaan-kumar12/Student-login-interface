@@ -1,0 +1,63 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 1920 1080"
+preserveAspectRatio="xMidYMid slice"
+id="scene">
+
+<defs>
+
+</defs>
+
+<g id="skyLayer">
+
+</g>
+
+<g id="moonLayer">
+
+</g>
+
+<g id="starLayer">
+
+</g>
+
+<g id="cloudLayer">
+
+</g>
+
+<g id="balloonLayer">
+
+</g>
+
+<g id="birdLayer">
+
+</g>
+
+<g id="treeLayer">
+
+</g>
+
+<g id="schoolLayer">
+
+</g>
+
+<g id="studentLayer">
+
+</g>
+
+<g id="grassLayer">
+
+</g>
+
+<g id="flowerLayer">
+
+</g>
+
+<g id="fireflyLayer">
+
+</g>
+
+<g id="effectLayer">
+
+</g>
+
+</svg>

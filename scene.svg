@@ -5,6 +5,43 @@ preserveAspectRatio="xMidYMid slice"
 id="scene">
 
 <defs>
+  <radialGradient id="moonGlow"
+cx="50%"
+cy="50%"
+r="50%">
+
+<stop
+offset="0%"
+stop-color="#FFF9C4"
+stop-opacity="1"/>
+
+<stop
+offset="35%"
+stop-color="#FFE082"
+stop-opacity=".75"/>
+
+<stop
+offset="70%"
+stop-color="#FFD54F"
+stop-opacity=".30"/>
+
+<stop
+offset="100%"
+stop-color="#FFD54F"
+stop-opacity="0"/>
+
+</radialGradient>
+
+<filter id="softGlow"
+x="-60%"
+y="-60%"
+width="220%"
+height="220%">
+
+<feGaussianBlur
+stdDeviation="18"/>
+
+</filter>
 
 </defs>
 
@@ -13,7 +50,53 @@ id="scene">
 </g>
 
 <g id="moonLayer">
+  <!-- Moon Glow -->
 
+<circle
+
+cx="1510"
+
+cy="170"
+
+r="125"
+
+fill="url(#moonGlow)"
+
+filter="url(#softGlow)"/>
+
+  <!-- Crescent Moon -->
+
+<circle
+
+cx="1510"
+
+cy="170"
+
+r="48"
+
+fill="#FFE66A"/>
+  <circle
+
+cx="1528"
+
+cy="160"
+
+r="45"
+
+fill="#15254F"/>
+  <ellipse
+
+cx="1492"
+
+cy="145"
+
+rx="8"
+
+ry="18"
+
+fill="#FFFDE7"
+
+opacity=".55"/>
 </g>
 
 <g id="starLayer">

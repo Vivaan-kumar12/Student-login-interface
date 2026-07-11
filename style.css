@@ -707,3 +707,41 @@ filter:brightness(1);
 }
 
 }
+
+#horizonGlow{
+
+transform-origin:center bottom;
+
+animation:
+
+horizonGlow 12s ease-in-out infinite;
+
+}
+
+@keyframes horizonGlow{
+
+0%{
+
+opacity:.85;
+
+transform:scale(1);
+
+}
+
+50%{
+
+opacity:1;
+
+transform:scale(1.03);
+
+}
+
+100%{
+
+opacity:.85;
+
+transform:scale(1);
+
+}
+
+}

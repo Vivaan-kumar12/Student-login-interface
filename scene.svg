@@ -160,16 +160,10 @@ fill="url(#moonHalo)"
 opacity=".85"/>
 
 <circle
-
 cx="1510"
-
 cy="170"
-
 r="125"
-
-fill="url(#moonGlow)"
-
-filter="url(#softGlow)"/>
+fill="url(#moonHalo)"/>
 
   <!-- Crescent Moon -->
 

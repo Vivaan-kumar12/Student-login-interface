@@ -191,6 +191,14 @@ class="star8"/>
 
 </g>
 
+  <ellipse
+id="horizonGlow"
+cx="960"
+cy="1080"
+rx="900"
+ry="420"
+fill="url(#sunGlow)"/>
+  
 <g id="moonLayer">
   <!-- Moon Glow -->
   <ellipse

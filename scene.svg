@@ -25,13 +25,6 @@ y2="100%">
 <stop offset="100%" stop-color="#ffb255"/>
 
 </linearGradient>
-  <rect
-id="sky"
-x="0"
-y="0"
-width="1920"
-height="1080"
-fill="url(#skyGradient)"/>
   <radialGradient
 id="sunGlow"
 cx="50%"
@@ -64,6 +57,7 @@ stop-color="#ff6d7a"
 stop-opacity="0"/>
 
 </radialGradient>
+  
 <symbol id="starShape" viewBox="0 0 100 100">
 
 <path
@@ -130,6 +124,14 @@ result="blur"/>
 </filter>
   
 </defs>
+
+  <rect
+id="sky"
+x="0"
+y="0"
+width="1920"
+height="1080"
+fill="url(#skyGradient)"/>
 
 <g id="stars">
 

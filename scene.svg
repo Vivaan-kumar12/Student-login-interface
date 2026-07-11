@@ -5,6 +5,34 @@ preserveAspectRatio="xMidYMid slice"
 id="scene">
 
 <defs>
+
+  <linearGradient id="skyGradient"
+x1="0%"
+y1="0%"
+x2="0%"
+y2="100%">
+
+<stop offset="0%" stop-color="#07003b"/>
+
+<stop offset="20%" stop-color="#12005f"/>
+
+<stop offset="45%" stop-color="#35109a"/>
+
+<stop offset="70%" stop-color="#6626b9"/>
+
+<stop offset="90%" stop-color="#d34f8d"/>
+
+<stop offset="100%" stop-color="#ffb255"/>
+
+</linearGradient>
+  <rect
+id="sky"
+x="0"
+y="0"
+width="1920"
+height="1080"
+fill="url(#skyGradient)"/>
+  
 <symbol id="starShape" viewBox="0 0 100 100">
 
 <path

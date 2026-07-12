@@ -252,90 +252,103 @@ filter="url(#cloudBlur)"/>
 </g>
 </g>
 
-<g id="balloonLayer"
-transform="translate(770 760) scale(1.0)">
+<g id="balloon1" transform="translate(775 760) scale(.72)">
 
     <!-- Balloon Body -->
-    <path
-    d="
-    M0 -150
-    C70 -150 105 -80 105 0
-    C105 80 70 145 0 190
-    C-70 145 -105 80 -105 0
-    C-105 -80 -70 -150 0 -150
-    Z"
-    fill="#ffb45f"/>
 
-    <!-- Vertical Panels -->
+    <path d="
+    M0 -120
+    C55 -120 90 -70 90 0
+    C90 75 55 125 0 160
+    C-55 125 -90 75 -90 0
+    C-90 -70 -55 -120 0 -120 Z"
+    fill="#ffb45a"/>
 
-    <path
-    d="M-78 -120
-       C-65 -30 -60 70 -52 145
-       L-18 170
-       C-25 75 -28 -35 -38 -145
-       Z"
-    fill="#ff6a97"/>
+    <!-- Panels -->
 
-    <path
-    d="M-30 -148
-       C-20 -35 -16 78 -12 182
-       L12 182
-       C16 80 20 -35 30 -148
-       Z"
-    fill="#ffd76a"/>
+    <path d="M-55 -98 C-46 -20 -42 70 -36 132 L-10 148 C-14 70 -18 -25 -26 -115 Z"
+    fill="#ff5d8f"/>
 
-    <path
-    d="M38 -145
-       C28 -35 25 72 18 170
-       L52 145
-       C60 70 65 -30 78 -120
-       Z"
-    fill="#7c3cff"/>
+    <path d="M-8 -120 C-3 -20 0 80 0 160 C0 80 3 -20 8 -120 Z"
+    fill="#ffd45b"/>
+
+    <path d="M26 -115 C18 -25 14 70 10 148 L36 132 C42 70 46 -20 55 -98 Z"
+    fill="#7a46ff"/>
 
     <!-- Highlight -->
 
     <ellipse
-    cx="-38"
-    cy="-70"
-    rx="14"
-    ry="36"
+    cx="-28"
+    cy="-55"
+    rx="10"
+    ry="28"
     fill="white"
-    opacity=".25"/>
+    opacity=".22"/>
 
     <!-- Neck -->
 
     <path
     d="
-    M-20 180
-    L20 180
-    L12 212
-    L-12 212
+    M-14 160
+    L14 160
+    L8 185
+    L-8 185
     Z"
-    fill="#9b5c2a"/>
+    fill="#8b5525"/>
 
     <!-- Ropes -->
 
-    <line x1="-12" y1="212" x2="-18" y2="248"
-    stroke="#5e3d16" stroke-width="2"/>
+    <line x1="-10" y1="185" x2="-13" y2="215"
+    stroke="#5d3412" stroke-width="2"/>
 
-    <line x1="12" y1="212" x2="18" y2="248"
-    stroke="#5e3d16" stroke-width="2"/>
+    <line x1="10" y1="185" x2="13" y2="215"
+    stroke="#5d3412" stroke-width="2"/>
 
-    <line x1="-4" y1="212" x2="-6" y2="248"
-    stroke="#5e3d16" stroke-width="2"/>
+    <line x1="-3" y1="185" x2="-4" y2="215"
+    stroke="#5d3412" stroke-width="2"/>
 
-    <line x1="4" y1="212" x2="6" y2="248"
-    stroke="#5e3d16" stroke-width="2"/>
+    <line x1="3" y1="185" x2="4" y2="215"
+    stroke="#5d3412" stroke-width="2"/>
 
     <!-- Basket -->
 
     <rect
-    x="-18"
-    y="248"
-    width="36"
-    height="28"
+    x="-13"
+    y="215"
+    width="26"
+    height="18"
     rx="2"
-    fill="url(#basketGradient)"/>
+    fill="#6d4218"/>
+
+    <!-- Burner -->
+
+    <rect
+    x="-5"
+    y="188"
+    width="10"
+    height="7"
+    fill="#444"/>
+
+    <!-- Flame -->
+
+    <path
+    d="
+    M0 205
+    C-6 196 -5 190 0 182
+    C5 190 6 196 0 205
+    Z"
+    fill="#ffd84d">
+
+        <animate
+        attributeName="d"
+        dur=".45s"
+        repeatCount="indefinite"
+        values="
+M0 205 C-6 196 -5 190 0 182 C5 190 6 196 0 205 Z;
+M0 205 C-4 198 -3 191 0 178 C3 191 4 198 0 205 Z;
+M0 205 C-6 196 -5 190 0 182 C5 190 6 196 0 205 Z"/>
+
+    </path>
 
 </g>
 

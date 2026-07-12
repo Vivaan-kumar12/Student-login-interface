@@ -6,6 +6,17 @@ id="scene">
 
 <defs>
 
+  <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#8A4DFF"/>
+    <stop offset="35%" stop-color="#B05CFF"/>
+    <stop offset="65%" stop-color="#E46AA4"/>
+    <stop offset="100%" stop-color="#FF8C6B"/>
+</linearGradient>
+
+<filter id="cloudBlur">
+    <feGaussianBlur stdDeviation="8"/>
+</filter>
+
   <linearGradient id="skyGradient"
 x1="0%"
 y1="0%"
@@ -197,26 +208,61 @@ fill="url(#sunGlow)"/>
 
 <g id="cloudLayer">
 
-    <!-- Left Cloud -->
-    <g id="cloud1">
+    <!-- Cloud 1 (Top Left) -->
+<g transform="translate(70 370)">
+  <ellipse cx="0" cy="0" rx="70" ry="42" fill="#5f2dbd"/>
+  <ellipse cx="55" cy="-12" rx="52" ry="34" fill="#6c35cb"/>
+  <ellipse cx="-48" cy="-10" rx="48" ry="30" fill="#7340d5"/>
+  <ellipse cx="22" cy="18" rx="95" ry="26" fill="#c34b89" opacity=".75"/>
+</g>
 
-        <ellipse cx="160" cy="520" rx="90" ry="40" fill="#F8F8FF"/>
-        <ellipse cx="220" cy="500" rx="75" ry="48" fill="#FFFFFF"/>
-        <ellipse cx="290" cy="520" rx="85" ry="42" fill="#FDFDFD"/>
-        <ellipse cx="220" cy="540" rx="120" ry="38" fill="#F7F7F7"/>
+<!-- Cloud 2 (Top Right) -->
+<g transform="translate(910 270)">
+  <ellipse cx="0" cy="0" rx="82" ry="46" fill="#5d2ac0"/>
+  <ellipse cx="-55" cy="-14" rx="46" ry="30" fill="#6a34cf"/>
+  <ellipse cx="58" cy="-16" rx="48" ry="30" fill="#7140d9"/>
+  <ellipse cx="18" cy="18" rx="110" ry="26" fill="#ca4f8c" opacity=".78"/>
+</g>
 
-    </g>
+<!-- Cloud 3 (Middle Right) -->
+<g transform="translate(950 730)">
+  <ellipse cx="0" cy="0" rx="62" ry="34" fill="#6330c4"/>
+  <ellipse cx="-40" cy="-10" rx="36" ry="24" fill="#7240d4"/>
+  <ellipse cx="42" cy="-8" rx="38" ry="24" fill="#7645d8"/>
+  <ellipse cx="8" cy="14" rx="82" ry="18" fill="#c95d92" opacity=".72"/>
+</g>
 
-    <!-- Right Cloud -->
+<!-- Cloud 4 (Bottom Left Small) -->
+<g transform="translate(95 930)">
+  <ellipse cx="0" cy="0" rx="44" ry="22" fill="#7542d7"/>
+  <ellipse cx="-28" cy="-7" rx="22" ry="16" fill="#8b59e8"/>
+  <ellipse cx="28" cy="-6" rx="24" ry="16" fill="#8f5bea"/>
+  <ellipse cx="0" cy="10" rx="58" ry="12" fill="#d66a95" opacity=".7"/>
+</g>
 
-    <g id="cloud2">
+<!-- Cloud 5 (Bottom Center) -->
+<g transform="translate(560 1060)">
+  <ellipse cx="0" cy="0" rx="56" ry="26" fill="#7442d7"/>
+  <ellipse cx="-38" cy="-8" rx="26" ry="18" fill="#8b59e8"/>
+  <ellipse cx="38" cy="-7" rx="26" ry="18" fill="#8f5cea"/>
+  <ellipse cx="0" cy="11" rx="74" ry="15" fill="#d86893" opacity=".72"/>
+</g>
 
-        <ellipse cx="850" cy="420" rx="90" ry="40" fill="#F8F8FF"/>
-        <ellipse cx="915" cy="395" rx="80" ry="50" fill="#FFFFFF"/>
-        <ellipse cx="995" cy="420" rx="95" ry="42" fill="#FCFCFC"/>
-        <ellipse cx="920" cy="445" rx="125" ry="38" fill="#F5F5F5"/>
+<!-- Cloud 6 (Bottom Left Large) -->
+<g transform="translate(170 1180)">
+  <ellipse cx="0" cy="0" rx="82" ry="34" fill="#7b49dd"/>
+  <ellipse cx="-55" cy="-10" rx="36" ry="24" fill="#9566ef"/>
+  <ellipse cx="55" cy="-10" rx="38" ry="24" fill="#9566ef"/>
+  <ellipse cx="0" cy="14" rx="108" ry="18" fill="#df7095" opacity=".72"/>
+</g>
 
-    </g>
+<!-- Cloud 7 (Near Horizon Right) -->
+<g transform="translate(770 980)">
+  <ellipse cx="0" cy="0" rx="46" ry="20" fill="#8858e9"/>
+  <ellipse cx="-26" cy="-6" rx="20" ry="14" fill="#986cf2"/>
+  <ellipse cx="26" cy="-6" rx="20" ry="14" fill="#986cf2"/>
+  <ellipse cx="0" cy="8" rx="60" ry="10" fill="#e17897" opacity=".68"/>
+</g>
 
 </g>
 

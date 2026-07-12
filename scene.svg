@@ -156,7 +156,14 @@ height="1920"
 fill="url(#skyGradient)"/>
   
 <g id="stars">
-
+<use href="#starShape" x="90" y="120" width="10" height="10"/>
+<use href="#starShape" x="190" y="60" width="6" height="6"/>
+<use href="#starShape" x="310" y="170" width="12" height="12"/>
+<use href="#starShape" x="430" y="90" width="7" height="7"/>
+<use href="#starShape" x="620" y="130" width="14" height="14"/>
+<use href="#starShape" x="760" y="70" width="8" height="8"/>
+<use href="#starShape" x="930" y="160" width="12" height="12"/>
+<use href="#starShape" x="1000" y="100" width="6" height="6"/>
 <use href="#starShape" x="70"  y="70"  width="18" height="18"/>
 <use href="#starShape" x="250" y="110" width="16" height="16"/>
 <use href="#starShape" x="520" y="60"  width="22" height="22"/>
@@ -179,14 +186,14 @@ fill="url(#skyGradient)"/>
     <circle
         cx="280"
         cy="300"
-        r="110"
+        r="150"
         fill="url(#moonHalo)"
         opacity=".9"/>
 
     <circle
         cx="280"
         cy="300"
-        r="70"
+        r="100"
         fill="url(#moonHalo)"
         opacity=".5"/>
 
@@ -252,6 +259,166 @@ filter="url(#cloudBlur)"/>
 </g>
 </g>
 
+<g transform="translate(120 350) scale(.7)">
+  <ellipse cx="-90" cy="30" rx="38" ry="16" fill="#ff6f7e" opacity=".75"/>
+<ellipse cx="-50" cy="38" rx="48" ry="18" fill="#ff6b8a" opacity=".75"/>
+<ellipse cx="0" cy="42" rx="60" ry="20" fill="#ff5f86" opacity=".75"/>
+<ellipse cx="55" cy="38" rx="46" ry="18" fill="#ff6d91" opacity=".75"/>
+
+<circle cx="-85" cy="0" r="32" fill="#5123b8"/>
+<circle cx="-40" cy="-18" r="42" fill="#5d2cc6"/>
+<circle cx="10" cy="-22" r="48" fill="#6a36d4"/>
+<circle cx="58" cy="-12" r="42" fill="#6632cb"/>
+<circle cx="98" cy="4" r="34" fill="#5526b9"/>
+
+<ellipse
+cx="-15"
+cy="8"
+rx="34"
+ry="26"
+fill="#8f58f2"
+opacity=".10"
+filter="url(#cloudBlur)"/>
+
+<ellipse
+cx="35"
+cy="-2"
+rx="28"
+ry="22"
+fill="#a86bff"
+opacity=".08"
+filter="url(#cloudBlur)"/>
+</g>
+</g>
+
+  <g transform="translate(250 850) scale(.5)">
+    <ellipse cx="-90" cy="30" rx="38" ry="16" fill="#ff6f7e" opacity=".75"/>
+<ellipse cx="-50" cy="38" rx="48" ry="18" fill="#ff6b8a" opacity=".75"/>
+<ellipse cx="0" cy="42" rx="60" ry="20" fill="#ff5f86" opacity=".75"/>
+<ellipse cx="55" cy="38" rx="46" ry="18" fill="#ff6d91" opacity=".75"/>
+
+<circle cx="-85" cy="0" r="32" fill="#5123b8"/>
+<circle cx="-40" cy="-18" r="42" fill="#5d2cc6"/>
+<circle cx="10" cy="-22" r="48" fill="#6a36d4"/>
+<circle cx="58" cy="-12" r="42" fill="#6632cb"/>
+<circle cx="98" cy="4" r="34" fill="#5526b9"/>
+
+<ellipse
+cx="-15"
+cy="8"
+rx="34"
+ry="26"
+fill="#8f58f2"
+opacity=".10"
+filter="url(#cloudBlur)"/>
+
+<ellipse
+cx="35"
+cy="-2"
+rx="28"
+ry="22"
+fill="#a86bff"
+opacity=".08"
+filter="url(#cloudBlur)"/>
+</g>
+</g>
+
+  <g transform="translate(520 1050) scale(.4)">
+    <ellipse cx="-90" cy="30" rx="38" ry="16" fill="#ff6f7e" opacity=".75"/>
+<ellipse cx="-50" cy="38" rx="48" ry="18" fill="#ff6b8a" opacity=".75"/>
+<ellipse cx="0" cy="42" rx="60" ry="20" fill="#ff5f86" opacity=".75"/>
+<ellipse cx="55" cy="38" rx="46" ry="18" fill="#ff6d91" opacity=".75"/>
+
+<circle cx="-85" cy="0" r="32" fill="#5123b8"/>
+<circle cx="-40" cy="-18" r="42" fill="#5d2cc6"/>
+<circle cx="10" cy="-22" r="48" fill="#6a36d4"/>
+<circle cx="58" cy="-12" r="42" fill="#6632cb"/>
+<circle cx="98" cy="4" r="34" fill="#5526b9"/>
+
+<ellipse
+cx="-15"
+cy="8"
+rx="34"
+ry="26"
+fill="#8f58f2"
+opacity=".10"
+filter="url(#cloudBlur)"/>
+
+<ellipse
+cx="35"
+cy="-2"
+rx="28"
+ry="22"
+fill="#a86bff"
+opacity=".08"
+filter="url(#cloudBlur)"/>
+</g>
+</g>
+
+<g transform="translate(850 650) scale(.55)">
+  <ellipse cx="-90" cy="30" rx="38" ry="16" fill="#ff6f7e" opacity=".75"/>
+<ellipse cx="-50" cy="38" rx="48" ry="18" fill="#ff6b8a" opacity=".75"/>
+<ellipse cx="0" cy="42" rx="60" ry="20" fill="#ff5f86" opacity=".75"/>
+<ellipse cx="55" cy="38" rx="46" ry="18" fill="#ff6d91" opacity=".75"/>
+
+<circle cx="-85" cy="0" r="32" fill="#5123b8"/>
+<circle cx="-40" cy="-18" r="42" fill="#5d2cc6"/>
+<circle cx="10" cy="-22" r="48" fill="#6a36d4"/>
+<circle cx="58" cy="-12" r="42" fill="#6632cb"/>
+<circle cx="98" cy="4" r="34" fill="#5526b9"/>
+
+<ellipse
+cx="-15"
+cy="8"
+rx="34"
+ry="26"
+fill="#8f58f2"
+opacity=".10"
+filter="url(#cloudBlur)"/>
+
+<ellipse
+cx="35"
+cy="-2"
+rx="28"
+ry="22"
+fill="#a86bff"
+opacity=".08"
+filter="url(#cloudBlur)"/>
+</g>
+</g>
+
+  <g transform="translate(900 1150) scale(.35)">
+    <ellipse cx="-90" cy="30" rx="38" ry="16" fill="#ff6f7e" opacity=".75"/>
+<ellipse cx="-50" cy="38" rx="48" ry="18" fill="#ff6b8a" opacity=".75"/>
+<ellipse cx="0" cy="42" rx="60" ry="20" fill="#ff5f86" opacity=".75"/>
+<ellipse cx="55" cy="38" rx="46" ry="18" fill="#ff6d91" opacity=".75"/>
+
+<circle cx="-85" cy="0" r="32" fill="#5123b8"/>
+<circle cx="-40" cy="-18" r="42" fill="#5d2cc6"/>
+<circle cx="10" cy="-22" r="48" fill="#6a36d4"/>
+<circle cx="58" cy="-12" r="42" fill="#6632cb"/>
+<circle cx="98" cy="4" r="34" fill="#5526b9"/>
+
+<ellipse
+cx="-15"
+cy="8"
+rx="34"
+ry="26"
+fill="#8f58f2"
+opacity=".10"
+filter="url(#cloudBlur)"/>
+
+<ellipse
+cx="35"
+cy="-2"
+rx="28"
+ry="22"
+fill="#a86bff"
+opacity=".08"
+filter="url(#cloudBlur)"/>
+</g>
+</g>
+  
 <g id="balloon1" transform="translate(780 770) scale(.46)">
     <!-- Balloon Body -->
 

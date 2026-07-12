@@ -197,6 +197,27 @@ fill="url(#sunGlow)"/>
 
 <g id="cloudLayer">
 
+    <!-- Left Cloud -->
+    <g id="cloud1">
+
+        <ellipse cx="160" cy="520" rx="90" ry="40" fill="#F8F8FF"/>
+        <ellipse cx="220" cy="500" rx="75" ry="48" fill="#FFFFFF"/>
+        <ellipse cx="290" cy="520" rx="85" ry="42" fill="#FDFDFD"/>
+        <ellipse cx="220" cy="540" rx="120" ry="38" fill="#F7F7F7"/>
+
+    </g>
+
+    <!-- Right Cloud -->
+
+    <g id="cloud2">
+
+        <ellipse cx="850" cy="420" rx="90" ry="40" fill="#F8F8FF"/>
+        <ellipse cx="915" cy="395" rx="80" ry="50" fill="#FFFFFF"/>
+        <ellipse cx="995" cy="420" rx="95" ry="42" fill="#FCFCFC"/>
+        <ellipse cx="920" cy="445" rx="125" ry="38" fill="#F5F5F5"/>
+
+    </g>
+
 </g>
 
 <g id="balloonLayer">

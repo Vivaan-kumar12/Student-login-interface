@@ -218,7 +218,7 @@ fill="url(#sunGlow)"/>
 
 <g id="cloudLayer">
 
-<g transform="translate(860 260)">
+<g transform="translate(860 260)" filter="url(#cloudBlur)">
 
 <ellipse cx="-90" cy="30" rx="38" ry="16" fill="#ff6f7e" opacity=".75"/>
 <ellipse cx="-50" cy="38" rx="48" ry="18" fill="#ff6b8a" opacity=".75"/>
@@ -231,9 +231,23 @@ fill="url(#sunGlow)"/>
 <circle cx="58" cy="-12" r="42" fill="#6632cb"/>
 <circle cx="98" cy="4" r="34" fill="#5526b9"/>
 
-<circle cx="-15" cy="8" r="26" fill="#8347e7" opacity=".35"/>
-<circle cx="35" cy="-2" r="22" fill="#8f58f2" opacity=".28"/>
+<ellipse
+cx="-15"
+cy="8"
+rx="34"
+ry="26"
+fill="#8f58f2"
+opacity=".10"
+filter="url(#cloudBlur)"/>
 
+<ellipse
+cx="35"
+cy="-2"
+rx="28"
+ry="22"
+fill="#a86bff"
+opacity=".08"
+filter="url(#cloudBlur)"/>
 </g>
 </g>
 

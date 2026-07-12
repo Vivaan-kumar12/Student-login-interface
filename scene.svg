@@ -249,6 +249,106 @@ filter="url(#cloudBlur)"/>
 
 <g id="balloonLayer">
 
+<g transform="translate(780 720)">
+
+<!-- Balloon Shadow -->
+<ellipse
+cx="0"
+cy="0"
+rx="52"
+ry="62"
+fill="#8a2d7a"
+opacity=".18"/>
+
+<!-- Balloon Body -->
+<path
+d="
+M0 -95
+C50 -95 72 -40 68 12
+C63 58 35 98 0 118
+C-35 98 -63 58 -68 12
+C-72 -40 -50 -95 0 -95
+Z"
+fill="#ff9a5e"/>
+
+<!-- Pink Stripe -->
+<path
+d="
+M-42 -78
+C-28 -92 -18 -92 -6 -82
+L-6 88
+C-20 78 -34 58 -42 22
+Z"
+fill="#ff5f9f"
+opacity=".88"/>
+
+<!-- Purple Stripe -->
+<path
+d="
+M6 -82
+C18 -92 30 -92 42 -78
+L42 22
+C34 58 20 78 6 88
+Z"
+fill="#7b38ff"
+opacity=".92"/>
+
+<!-- Center Stripe -->
+<path
+d="
+M-6 -88
+C4 -96 8 -96 18 -88
+L18 104
+C8 110 -2 110 -12 104
+Z"
+fill="#ffd16b"
+opacity=".9"/>
+
+<!-- Top Highlight -->
+<ellipse
+cx="-18"
+cy="-55"
+rx="12"
+ry="28"
+fill="#ffffff"
+opacity=".22"/>
+
+<!-- Basket Rope -->
+<line
+x1="-14"
+y1="110"
+x2="-8"
+y2="142"
+stroke="#5c3416"
+stroke-width="2"/>
+
+<line
+x1="14"
+y1="110"
+x2="8"
+y2="142"
+stroke="#5c3416"
+stroke-width="2"/>
+
+<!-- Basket -->
+<rect
+x="-12"
+y="142"
+width="24"
+height="18"
+rx="2"
+fill="#6b3d17"/>
+
+<rect
+x="-10"
+y="144"
+width="20"
+height="4"
+fill="#9d6735"
+opacity=".5"/>
+
+</g>
+
 </g>
 
 <g id="birdLayer">

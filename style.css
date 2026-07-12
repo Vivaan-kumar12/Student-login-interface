@@ -8,14 +8,11 @@
 
 body{
     min-height:100vh;
-
     display:flex;
     justify-content:center;
     align-items:center;
-
-    <svg id="sceneSVG"></svg>
-    background-size:cover;
-    background-position:center;
+    overflow:hidden;
+    background:#07003b;
 }
 
 .login-box{

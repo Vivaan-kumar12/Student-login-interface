@@ -208,62 +208,23 @@ fill="url(#sunGlow)"/>
 
 <g id="cloudLayer">
 
-    <!-- Cloud 1 (Top Left) -->
-<g transform="translate(70 370)">
-  <ellipse cx="0" cy="0" rx="70" ry="42" fill="#5f2dbd"/>
-  <ellipse cx="55" cy="-12" rx="52" ry="34" fill="#6c35cb"/>
-  <ellipse cx="-48" cy="-10" rx="48" ry="30" fill="#7340d5"/>
-  <ellipse cx="22" cy="18" rx="95" ry="26" fill="#c34b89" opacity=".75"/>
-</g>
+    <g transform="translate(860 260)">
 
-<!-- Cloud 2 (Top Right) -->
-<g transform="translate(910 270)">
-  <ellipse cx="0" cy="0" rx="82" ry="46" fill="#5d2ac0"/>
-  <ellipse cx="-55" cy="-14" rx="46" ry="30" fill="#6a34cf"/>
-  <ellipse cx="58" cy="-16" rx="48" ry="30" fill="#7140d9"/>
-  <ellipse cx="18" cy="18" rx="110" ry="26" fill="#ca4f8c" opacity=".78"/>
-</g>
+<ellipse cx="-90" cy="30" rx="38" ry="16" fill="#ff6f7e" opacity=".75"/>
+<ellipse cx="-50" cy="38" rx="48" ry="18" fill="#ff6b8a" opacity=".75"/>
+<ellipse cx="0" cy="42" rx="60" ry="20" fill="#ff5f86" opacity=".75"/>
+<ellipse cx="55" cy="38" rx="46" ry="18" fill="#ff6d91" opacity=".75"/>
 
-<!-- Cloud 3 (Middle Right) -->
-<g transform="translate(950 730)">
-  <ellipse cx="0" cy="0" rx="62" ry="34" fill="#6330c4"/>
-  <ellipse cx="-40" cy="-10" rx="36" ry="24" fill="#7240d4"/>
-  <ellipse cx="42" cy="-8" rx="38" ry="24" fill="#7645d8"/>
-  <ellipse cx="8" cy="14" rx="82" ry="18" fill="#c95d92" opacity=".72"/>
-</g>
+<circle cx="-85" cy="0" r="32" fill="#5123b8"/>
+<circle cx="-40" cy="-18" r="42" fill="#5d2cc6"/>
+<circle cx="10" cy="-22" r="48" fill="#6a36d4"/>
+<circle cx="58" cy="-12" r="42" fill="#6632cb"/>
+<circle cx="98" cy="4" r="34" fill="#5526b9"/>
 
-<!-- Cloud 4 (Bottom Left Small) -->
-<g transform="translate(95 930)">
-  <ellipse cx="0" cy="0" rx="44" ry="22" fill="#7542d7"/>
-  <ellipse cx="-28" cy="-7" rx="22" ry="16" fill="#8b59e8"/>
-  <ellipse cx="28" cy="-6" rx="24" ry="16" fill="#8f5bea"/>
-  <ellipse cx="0" cy="10" rx="58" ry="12" fill="#d66a95" opacity=".7"/>
-</g>
+<circle cx="-15" cy="8" r="26" fill="#8347e7" opacity=".35"/>
+<circle cx="35" cy="-2" r="22" fill="#8f58f2" opacity=".28"/>
 
-<!-- Cloud 5 (Bottom Center) -->
-<g transform="translate(560 1060)">
-  <ellipse cx="0" cy="0" rx="56" ry="26" fill="#7442d7"/>
-  <ellipse cx="-38" cy="-8" rx="26" ry="18" fill="#8b59e8"/>
-  <ellipse cx="38" cy="-7" rx="26" ry="18" fill="#8f5cea"/>
-  <ellipse cx="0" cy="11" rx="74" ry="15" fill="#d86893" opacity=".72"/>
 </g>
-
-<!-- Cloud 6 (Bottom Left Large) -->
-<g transform="translate(170 1180)">
-  <ellipse cx="0" cy="0" rx="82" ry="34" fill="#7b49dd"/>
-  <ellipse cx="-55" cy="-10" rx="36" ry="24" fill="#9566ef"/>
-  <ellipse cx="55" cy="-10" rx="38" ry="24" fill="#9566ef"/>
-  <ellipse cx="0" cy="14" rx="108" ry="18" fill="#df7095" opacity=".72"/>
-</g>
-
-<!-- Cloud 7 (Near Horizon Right) -->
-<g transform="translate(770 980)">
-  <ellipse cx="0" cy="0" rx="46" ry="20" fill="#8858e9"/>
-  <ellipse cx="-26" cy="-6" rx="20" ry="14" fill="#986cf2"/>
-  <ellipse cx="26" cy="-6" rx="20" ry="14" fill="#986cf2"/>
-  <ellipse cx="0" cy="8" rx="60" ry="10" fill="#e17897" opacity=".68"/>
-</g>
-
 </g>
 
 <g id="balloonLayer">

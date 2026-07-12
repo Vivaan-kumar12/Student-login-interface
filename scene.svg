@@ -252,8 +252,7 @@ filter="url(#cloudBlur)"/>
 </g>
 </g>
 
-<g id="balloon1" transform="translate(775 760) scale(.72)">
-
+<g id="balloon1" transform="translate(780 770) scale(.46)">
     <!-- Balloon Body -->
 
     <path d="
